@@ -1,1 +1,37 @@
+* {
+ margin: 0;
+ padding: 0;
+ outline: none;
+ box-sizing: border-box;
+}
+
+body {
+ background-color: black;
+}
+
+header {
+ background-color: grey;
+ position: fixed;
+ left: 0;
+ right: 0;
+ height: 100px;
+ display: flex;
+ align-items: center;
+ padding-left: 5em;
+ padding-right: 5em;
+}
+header * {
+ display: inline;
+}
+
+header li  {
+ margin: 25px;
+ padding: 1.7em;
+ color: aliceblue;
+ font-size: 25px;
+}
+
+
+
+
 
