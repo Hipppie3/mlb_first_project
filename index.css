@@ -1,64 +1,78 @@
-body {
- margin: 0px;
- background-color: tomato;
+* {
+ margin: auto;
 }
 
 
-
-/* Nav bar code starts here*/
-nav {
+/* Background CSS START */
+.outterRed {
+ background-color: red;
+ height: 100vh;
  display: flex;
  justify-content: space-around;
- align-items: center;
- background-color: black;
- font-family: "Montserrat", sans-serif;
- height: 7em;
-}
-.heading {
- color: tomato;
- text-transform: uppercase;
- letter-spacing: 5px;
- font-size: 25px;
+ flex-direction: colum;
+
 }
 
-ul {
- list-style: none;
+.outterWhite {
+ background-color: rgb(250, 238, 238);
+ width: 97%;
+ height: 97%;
 }
 
-.nav-links {
- display: inline;
- justify-content: space-around;
- width: 30%;
+/* Background CSS END */
+
+
+/* Nav bar code STARTS */
+.navigation {
+ display: flex;
+ flex-direction: row;
+ justify-content: space-evenly;
+ background: white;
+ height: 7.5%;
 }
 
-li {
- display: inline;
- padding: 2em;
+.navigation li {
  font-weight: bold;
+ display: flex;
+ padding: 1em;
+ color: black;
 }
 
-/*Nav bar code ends here
-*/
+/* Nav bar code ENDS */
 
-/*Cards styling*/
+/* H1 code */
+.players {
+ padding-left: 27em;
+ padding-top: 6em;
+}
+
+
+/* Cards Styling STARTS */
+.allCards {
+ width: 90%;
+ margin: auto;
+ padding-top: 8em;
+ display: flex;
+ justify-content: space-evenly;
+}
+
 .card-flip-container {
- height: 400px;
- width: 300px;
+ height: 600px;
+ width: 33%;
+ display: inline-block;
 }
 
 .card {
  position: relative;
- height: 100%;
- width: 100%;
- transition: transform 1s;
+ height: 60%;
+ width: 280px;
+ margin: 0 auto;
+ transition: transform .5s;
  transform-style: preserve-3d;
 }
 
-.card-flip-container:hover .card {
- transform: rotateY(180deg)
-}
-
-.frontOfCard, .backOfCard {
+.frontOfCard,
+.backOfCard {
  backface-visibility: hidden;
  position: absolute;
  height: 100%;
@@ -69,11 +83,11 @@ li {
 }
 
 .frontOfCard {
- background-color: blue;
+ background-color: darkblue;
 }
 
 .backOfCard {
- background-color: red;
+ background-color: rgb(253, 253, 253);
  transform: rotateY(180deg);
 }
 
@@ -82,5 +96,14 @@ li {
  height: 100%;
 }
 
+.card-flip-container:hover .card {
+ transform: rotateY(180deg)
+}
+
+.position {
+ font-weight: bold;
+ font-size: 25px;
+}
 
 
+/* Cards Styling ENDS */
