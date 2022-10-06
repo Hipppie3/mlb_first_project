@@ -1,67 +1,84 @@
 * {
     margin: auto;
-   }
-   /* Background CSS START */
-   .outterRed {
+}
+
+
+/* Background CSS START */
+.outterRed {
     background-color: red;
     height: 145vh;
     display: flex;
     justify-content: space-around;
     flex-direction: colum;
-   }
-   .outterWhite {
+
+}
+
+.outterWhite {
     background-color: rgb(250, 238, 238);
     width: 97%;
     height: 97%;
-   }
-   /* Background CSS END */
-   /* Nav bar code STARTS */
-   .navigation {
+}
+
+/* Background CSS END */
+
+
+/* Nav bar code STARTS */
+.navigation {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
     background: white;
     height: 7.5%;
-   }
-   .navigation li {
+}
+
+.navigation li {
     font-size: 27px;
     font-weight: bold;
     display: flex;
     padding: 1em;
     color: black;
-   }
-   /* Nav bar code ENDS */
-   /* H1 code */
-   .players {
+}
+
+/* Nav bar code ENDS */
+
+/* H1 code */
+.players {
     display: flex;
     padding-top: 6em;
-   }
-   h1 {
+}
+
+h1 {
     font-family: Georgia, 'Times New Roman', Times, serif;
-   }
-   /* Cards Styling STARTS */
-   .allCards {
+}
+
+
+
+/* Cards Styling STARTS */
+.allCards {
     width: 94%;
     margin: auto;
     padding-top: 8em;
     display: flex;
     justify-content: space-evenly;
-   }
-   .card-flip-container {
-    height: 600px;
+}
+
+.card-flip-container {
+    height: 400px;
     width: 33%;
     display: inline-block;
-   }
-   .card {
+}
+
+.card {
     position: relative;
-    height: 60%;
+    height: 100%;
     width: 300px;
     margin: 0 auto;
     transition: transform .5s;
     transform-style: preserve-3d;
-   }
-   .frontOfCard,
-   .backOfCard {
+}
+
+.frontOfCard,
+.backOfCard {
     backface-visibility: hidden;
     position: absolute;
     height: 100%;
@@ -69,29 +86,47 @@
     display: flex;
     justify-content: center;
     align-items: center;
-   }
-   .frontOfCard {
+}
+
+.frontOfCard {
     background-color: darkblue;
-   }
-   .frontOfCard img {
+}
+
+.frontOfCard img {
     width: 100%;
     height: 100%;
-   }
-   .backOfCard {
+}
+
+.backOfCard {
     background-color: rgb(253, 253, 253);
     transform: rotateY(180deg);
-   }
-   .card-flip-container:hover .card {
+}
+
+
+.card-flip-container:hover .card {
     transform: rotateY(180deg)
-   }
-   .position {
+}
+
+.position {
     font-weight: bold;
     font-size: 25px;
-   }
-   .first-description {
+}
+
+.first-description {
     padding-top: 3em;
     flex-direction: column;
     display: flex;
     justify-content: space-around;
     gap: 20px;
-   }
+}
+
+.position1 {
+    flex-direction: row;
+}
+
+.redBtn {
+    display: flex;
+
+}
+
+/* Cards Styling ENDS */
