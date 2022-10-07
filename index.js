@@ -100,15 +100,17 @@ const firstDes = document.querySelector('.position1')
 function tom(data) {
 right.addEventListener('click', (e) => {
    e.preventDefault() 
+const num1 = document.getElementById('number1')
 const firstPara = document.getElementById('firstP')
 const firstParap = document.getElementById('firstPP')
 const firstParapp = document.getElementById('firstPPP')
 const firstParappp = document.getElementById('firstPPPP')
 const firstName = data.people[0]
+num1.textContent = `${'# '} ${firstName.primaryNumber}`
 firstPara.textContent = `${'Full Name: '} ${firstName.fullName}`
 firstParap.textContent = `${'Birth Date: '} ${firstName.birthDate}`
 firstParapp.textContent = `${'Nationality: '} ${firstName.nationality}`
-firstParappp.textContent = `${'Number: '} ${firstName.primaryNumber}`
+firstParappp.textContent = `${'Age: '} ${firstName.currentAge}`
      firstCardImg.src = img1rw.src;
     secondCardImg.src = img2rw.src;
     thirdCardImg.src = img3rw.src;;
@@ -123,15 +125,17 @@ const secondDes = document.querySelector('.position2')
 function tj(data) {
 right.addEventListener('click', (e) => {
    e.preventDefault() 
+const num2 = document.getElementById('number2')
 const secondPara = document.getElementById('secondP')
 const secondParap = document.getElementById('secondPP')
 const secondParapp= document.getElementById('secondPPP')
 const secondParappp = document.getElementById('secondPPPP')
 const firstName = data.people[0]
+num2.textContent = `${'# '} ${firstName.primaryNumber}`
 secondPara.textContent = `${'Full Name: '} ${firstName.fullName}`
 secondParap.textContent = `${'Birth Date: '} ${firstName.birthDate}`
 secondParapp.textContent = `${'Nationality: '} ${firstName.nationality}`
-secondParappp.textContent = `${'Number: '} ${firstName.primaryNumber}`
+secondParappp.textContent = `${'Age: '} ${firstName.currentAge}`
      firstCardImg.src = img1.src;
      firstCardImg.src = img1rw.src;
     secondCardImg.src = img2rw.src;
@@ -146,16 +150,18 @@ garnet(data))
 const thirdDes = document.querySelector('.position3')
 function garnet(data) {
 right.addEventListener('click', (e) => {
-   e.preventDefault() 
+   e.preventDefault()
+const num3 = document.getElementById('number3') 
 const thirdPara = document.getElementById('thirdP')
 const thirdParap = document.getElementById('thirdPP')
 const thirdParapp = document.getElementById('thirdPPP')
 const thirdParappp = document.getElementById('thirdPPPP')
 const firstName = data.people[0]
+num3.textContent = `${'# '} ${firstName.primaryNumber}`
 thirdPara.textContent = `${'Full Name: '} ${firstName.fullName}`
 thirdParap.textContent = `${'Birth Date: '} ${firstName.birthDate}`
 thirdParapp.textContent = `${'Nationality: '} ${firstName.nationality}`
-thirdParappp.textContent = `${'Number: '} ${firstName.primaryNumber}`
+thirdParappp.textContent = `${'Age: '} ${firstName.currentAge}`
     firstCardImg.src = img1rw.src;
     secondCardImg.src = img2rw.src;
     thirdCardImg.src = img3rw.src;;
@@ -174,15 +180,17 @@ const firstsDes = document.querySelector('.position1')
 function nic(data) {
 center.addEventListener('click', (e) => {
    e.preventDefault() 
+const num1 = document.getElementById('number1')
 const firstPara = document.getElementById('firstP')
 const firstParap = document.getElementById('firstPP')
 const firstParapp = document.getElementById('firstPPP')
 const firstParappp = document.getElementById('firstPPPP')
 const firstName = data.people[0]
+num1.textContent = `${'# '} ${firstName.primaryNumber}`
 firstPara.textContent = `${'Full Name: '} ${firstName.fullName}`
 firstParap.textContent = `${'Birth Date: '} ${firstName.birthDate}`
 firstParapp.textContent = `${'Nationality: '} ${firstName.nationality}`
-firstParappp.textContent = `${'Number: '} ${firstName.primaryNumber}`
+firstParappp.textContent = `${'Age: '} ${firstName.currentAge}`
     firstCardImg.src = img1f.src;
     secondCardImg.src = img2f.src;
     thirdCardImg.src = img3f.src;;
@@ -197,15 +205,17 @@ const secondsDes = document.querySelector('.position2')
 function lars(data) {
 center.addEventListener('click', (e) => {
    e.preventDefault() 
+const num2 = document.getElementById('number2')
 const secondPara = document.getElementById('secondP')
 const secondParap = document.getElementById('secondPP')
 const secondParapp= document.getElementById('secondPPP')
 const secondParappp = document.getElementById('secondPPPP')
 const firstName = data.people[0]
+num2.textContent = `${'# '} ${firstName.primaryNumber}`
 secondPara.textContent = `${'Full Name: '} ${firstName.fullName}`
 secondParap.textContent = `${'Birth Date: '} ${firstName.birthDate}`
 secondParapp.textContent = `${'Nationality: '} ${firstName.nationality}`
-secondParappp.textContent = `${'Number: '} ${firstName.primaryNumber}`
+secondParappp.textContent = `${'Age: '} ${firstName.currentAge}`
      firstCardImg.src = img1.src;
      firstCardImg.src = img1f.src;
     secondCardImg.src = img2f.src;
@@ -220,16 +230,18 @@ ev(data))
 const thirdsDes = document.querySelector('.position3')
 function ev(data) {
 center.addEventListener('click', (e) => {
-   e.preventDefault() 
+   e.preventDefault()
+const num3 = document.getElementById('number3') 
 const thirdPara = document.getElementById('thirdP')
 const thirdParap = document.getElementById('thirdPP')
 const thirdParapp = document.getElementById('thirdPPP')
 const thirdParappp = document.getElementById('thirdPPPP')
 const firstName = data.people[0]
+num3.textContent = `${'# '} ${firstName.primaryNumber}`
 thirdPara.textContent = `${'Full Name: '} ${firstName.fullName}`
 thirdParap.textContent = `${'Birth Date: '} ${firstName.birthDate}`
 thirdParapp.textContent = `${'Nationality: '} ${firstName.nationality}`
-thirdParappp.textContent = `${'Number: '} ${firstName.primaryNumber}`
+thirdParappp.textContent = `${'Age: '} ${firstName.currentAge}`
      firstCardImg.src = img1f.src;
     secondCardImg.src = img2f.src;
     thirdCardImg.src = img3f.src;;
@@ -247,15 +259,17 @@ const firstyDes = document.querySelector('.position1')
 function carl(data) {
 left.addEventListener('click', (e) => {
    e.preventDefault() 
+const num1 = document.getElementById('number1')
 const firstPara = document.getElementById('firstP')
 const firstParap = document.getElementById('firstPP')
 const firstParapp = document.getElementById('firstPPP')
 const firstParappp = document.getElementById('firstPPPP')
 const firstName = data.people[0]
+num1.textContent = `${'# '} ${firstName.primaryNumber}`
 firstPara.textContent = `${'Full Name: '} ${firstName.fullName}`
 firstParap.textContent = `${'Birth Date: '} ${firstName.birthDate}`
 firstParapp.textContent = `${'Nationality: '} ${firstName.nationality}`
-firstParappp.textContent = `${'Number: '} ${firstName.primaryNumber}`
+firstParappp.textContent = `${'Age: '} ${firstName.currentAge}`
      firstCardImg.src = img1.src;
     secondCardImg.src = img2.src;
     thirdCardImg.src = img3.src;;
@@ -270,15 +284,17 @@ const secondyDes = document.querySelector('.position2')
 function alex(data) {
 left.addEventListener('click', (e) => {
    e.preventDefault() 
+const num2 = document.getElementById('number2')
 const secondPara = document.getElementById('secondP')
 const secondParap = document.getElementById('secondPP')
 const secondParapp= document.getElementById('secondPPP')
 const secondParappp = document.getElementById('secondPPPP')
 const firstName = data.people[0]
+num2.textContent = `${'# '} ${firstName.primaryNumber}`
 secondPara.textContent = `${'Full Name: '} ${firstName.fullName}`
 secondParap.textContent = `${'Birth Date: '} ${firstName.birthDate}`
 secondParapp.textContent = `${'Nationality: '} ${firstName.nationality}`
-secondParappp.textContent = `${'Number: '} ${firstName.primaryNumber}`
+secondParappp.textContent = `${'Age: '} ${firstName.currentAge}`
      firstCardImg.src = img1.src;
     secondCardImg.src = img2.src;
     thirdCardImg.src = img3.src;;
@@ -292,16 +308,18 @@ marc(data))
 const thirdyDes = document.querySelector('.position3')
 function marc(data) {
 left.addEventListener('click', (e) => {
-   e.preventDefault() 
+   e.preventDefault()
+const num3 = document.getElementById('number3') 
 const thirdPara = document.getElementById('thirdP')
 const thirdParap = document.getElementById('thirdPP')
 const thirdParapp = document.getElementById('thirdPPP')
 const thirdParappp = document.getElementById('thirdPPPP')
 const firstName = data.people[0]
+num3.textContent = `${'# '} ${firstName.primaryNumber}`
 thirdPara.textContent = `${'Full Name: '} ${firstName.fullName}`
 thirdParap.textContent = `${'Birth Date: '} ${firstName.birthDate}`
 thirdParapp.textContent = `${'Nationality: '} ${firstName.nationality}`
-thirdParappp.textContent = `${'Number: '} ${firstName.primaryNumber}`
+thirdParappp.textContent = `${'Age: '} ${firstName.currentAge}`
      firstCardImg.src = img1.src;
     secondCardImg.src = img2.src;
     thirdCardImg.src = img3.src;;
