@@ -130,6 +130,7 @@ h1 {
 }
 
 .backOfCard {
+
     background-color: white;
     transform: rotateY(180deg);
     border-radius: 40px;
