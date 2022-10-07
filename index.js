@@ -307,8 +307,24 @@ thirdParappp.textContent = `${'Number: '} ${firstName.primaryNumber}`
     thirdCardImg.src = img3.src;;
 })}
 
+//button
 
+function button() {
+   document.getElementById('image')
+   .style.display = "block";
+   document.getElementById('button')
+   .style.display = "none";
+}
 
+//3rd event listener 
+
+const title = document.querySelector(".players")
+
+function alertTitle () {
+alert ('2018 Stanley Cup Champs!')
+}
+
+title.addEventListener("click", alertTitle, false)
 
 
 
