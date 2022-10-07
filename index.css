@@ -28,7 +28,8 @@
     justify-content: space-evenly;
     background: rgb(0, 0, 0);
     background-image: url('https://images5.alphacoders.com/982/982368.jpg');
-    height: 7.5%;
+    height: 2.5%;
+
 }
 
 .navigation li {
@@ -38,18 +39,21 @@
     padding: 1em;
     justify-content: center;
 
-    padding-top: 9em;
+    padding-top: 9.5em;
     color: rgb(247, 3, 3);
+}
+#line {
+    padding-left: 2em;
 }
 
 #right-wing {
     padding-right: 4.4em
  }
 #left-wing {
-    padding-left: 3.7em;
+    padding-left: 4em;
 }
 #center {
-    padding-right: 1em;
+    padding-left: 2em;
 }
 
 /* Nav bar code ENDS */
@@ -57,31 +61,45 @@
 /* H1 code */
 .players {
     display: flex;
-    padding-top: 6em;
+    padding-top: 5em;
+    padding-bottom: 2em;
+    background: radial-gradient(circle at 1.4% 1.4%, var(--color-1) .8%, transparent .8%),
+            radial-gradient(circle at 5.5% 3%, var(--color-2) .45%, transparent .45%),
+            radial-gradient(circle at 2.5% 3.5%, var(--color-3) .5%, transparent .5%),
+            radial-gradient(circle at 4.5% 1.2%, var(--color-4) .25%, transparent .25%),
+    
+            radial-gradient(circle at 98% 98%, var(--color-1) .8%, transparent .8%),
+            radial-gradient(circle at 95% 95%, var(--color-2) .45%, transparent .45%),
+            radial-gradient(circle at 94.5% 97.5%, var(--color-3) .5%, transparent .5%),
+            radial-gradient(circle at 98.5% 95.5%, var(--color-4) .25%, transparent .25%);
 }
+
 
 h1 {
     font-family: Georgia, 'Times New Roman', Times, serif;
-    color: aliceblue;
-    border-bottom-left-radius: 50% 70px;
-    border-bottom-right-radius: 50% 70px;
+    color: white;
+    font-size: 50px;
 }
 
 
 
 /* Cards Styling STARTS */
+
+
 .allCards {
     width: 94%;
     margin: auto;
     padding-top: 8em;
     display: flex;
     justify-content: space-evenly;
+  
 }
 
 .card-flip-container {
     height: 400px;
     width: 33%;
     display: inline-block;
+    padding-top: 2em;
 }
 
 .card {
@@ -89,7 +107,7 @@ h1 {
     height: 100%;
     width: 300px;
     margin: 0 auto;
-    transition: transform .5s;
+    transition: transform 1s;
     transform-style: preserve-3d;
 }
 
@@ -104,18 +122,18 @@ h1 {
     align-items: center;
 }
 
-.frontOfCard {
-    background-color: darkblue;
-}
-
 .frontOfCard img {
     width: 100%;
     height: 100%;
+    border-radius: 40px;
+    border: solid black 7px;
 }
 
 .backOfCard {
-    background-color: rgb(253, 253, 253);
+    background-color: white;
     transform: rotateY(180deg);
+    border-radius: 40px;
+    border: solid black 7px;
 }
 
 
@@ -139,9 +157,17 @@ h1 {
 .position1 {
     flex-direction: row;
 }
-
-.redBtn {
-    display: flex;
+#number1,#number2 {
+padding-left: .7em;
+font-size: 45px;
+font-weight: bold;
 }
+
+#number3 {
+padding-left: 1.2em;
+font-size: 45px;
+font-weight: bold;
+}
+
 
 /* Cards Styling ENDS */
